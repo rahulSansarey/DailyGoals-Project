@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+body {
+    background-color: antiquewhite;
+}
+.heading{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    background-color: #fff;
+    min-height: 100vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 30px;
+    
+}
+
+#title, #description, #btn {
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin: 5px;
+    font: 100 1.1rem;
+    padding: 10px;
+
+
+}
+
+#btn{
+    cursor: pointer;
+    background-color: blue;
+}
+
+#btn:hover {
+    background-color: brown;
+}
+
+.task > div {
+    width: 100%;
+}
+
+.task{
+    background-color: rgb(247,247,247);
+    font: 100 1.1rem sans-serif;
+    padding: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.task > span{
+color: rgb(39, 36, 36);
+}
+
+.deleteBtn{
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deleteBtn:hover {
+    background-color: rgb(165, 3, 36);
+}
+    
+
+/* Will using this code latetr */
+/* 
+     <div class="task"> 
+    <div> <p>Title Here:</p> 
+    <span>Description Here:</span>
+    </div>
+    <button class="deleteBtn">-</button>
+</div>
+    </div>
+</body> */
